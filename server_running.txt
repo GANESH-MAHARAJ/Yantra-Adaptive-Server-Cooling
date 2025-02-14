@@ -1,0 +1,9 @@
+Run these files in this order ->
+1. flask_server_inp.py
+2. agentResponse_api.py
+3. cd Flow_ then run, langflow run
+4. merged_serial.py 
+5. agent.py
+6. mong.py
+7. main.html
+8. dashboard.py

@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  background-color: #000;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+}
+
+.background {
+  margin: 0;
+  padding: 0;
+  display: block;
+  width: 100vw;
+  height: 100vh;
+  border-radius: inherit;
+  object-position: center center;
+  object-fit: cover;
+  position: fixed;
+  z-index: 0;
+}
+
+/* Centered Login Box */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+/* Glassy Login Box with Glow */
+.login-box {
+  z-index: 2;
+  background: rgba(20, 20, 20, 1); /* Solid dark box */
+  padding: 20px;
+  padding-right: 40px;
+  width: 200px;
+  border-radius: 12px;
+  /* box-shadow: 0 0 20px rgba(211, 186, 235, 0.5); */
+  border: 1px solid rgba(211, 186, 235, 0.5);
+  text-align: center;
+}
+
+/* Title */
+h2 {
+  padding-left: 10px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+/* Input Fields */
+.input-group {
+  margin-bottom: 18px;
+  text-align: left;
+}
+
+label {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 5px;
+  color: #bbb;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: black;
+  color: white;
+  outline: none;
+}
+
+/* Button */
+.button {
+  width: 100%;
+  padding: 10px;
+  background: linear-gradient(90deg, #9b59b6, #8a2be2);
+  border: none;
+  color: white;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.button:hover {
+  background: linear-gradient(90deg, #8a2be2, #9b59b6);
+  box-shadow: 0 0 15px rgba(138, 43, 226, 0.7);
+  transition: 0.2s ease-in;
+}
+
+path {
+  stroke-width: 50;
+}
+@keyframes flow {
+  0% {
+    stroke-dashoffset: 500;
+  }
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+
+path {
+  stroke: url(#flowGradient);
+  stroke-width: 10;
+  stroke-dasharray: 225;
+  stroke-dashoffset: 225;
+  animation: flow 10s linear infinite alternate;
+}

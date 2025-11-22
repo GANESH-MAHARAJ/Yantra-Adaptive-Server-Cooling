@@ -89,7 +89,6 @@ The circuit (shown in the patent disclosure, Page 3–4) :contentReference[oaici
 - IR sensors for airflow detection  
 - AC–DC converter for power regulation  
 
-*(You may add the Fritzing diagram image here.)*
 
 ---
 
@@ -160,7 +159,9 @@ Ensure correct COM port configuration
 🧑‍💻 Author
 
 Ganesh Maharaj Kamatham
+
 B.Tech CSE (Data Science), VIT Vellore
+
 Email: ganeshmaharaj.kamatham@email.com
 
 📜 License
